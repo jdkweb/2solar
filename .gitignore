@@ -1,0 +1,6 @@
+vendor
+chunks/*
+data/*
+Log/*
+settings.live.php
+settings.local.php
