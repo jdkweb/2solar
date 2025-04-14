@@ -1,20 +1,11 @@
-# Zonnepanelen API
+# 2Solar API Wrapper
 
-```sql
-+----+--------+--------+-----------------------------------------+---------+-----------+-------+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| id | status | active | description                             | page_id | get_quote | delay | mail_handler | options                                                                                                                              |
-+----+--------+--------+-----------------------------------------+---------+-----------+-------+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-|  1 | 105260 |      1 | lead                                    |   83308 |         0 |     1 | zapier       | {"mail_bcc": "jdkweb@hotmail.com,info@zonnepanelen.io", "mail_subject": "Bedankt voor uw aanvraag"}                                  |
-|  2 | 105265 |      1 | afspraak gemaakt                        |   83309 |         0 |     2 | zapier       | {"mail_bcc": "jdkweb@hotmail.com,info@zonnepanelen.io", "mail_subject": "Afspraak gepland"}                                          |
-|  3 | 105292 |      1 | lead website                            |   91828 |         0 |     1 | zapier       | {"mail_bcc": "jdkweb@hotmail.com,info@zonnepanelen.io", "mail_subject": "Bedankt voor uw aanvraag"}                                  |
-|  4 | 105293 |      1 | lead offertevergelijker.nl              |   97066 |         0 |     1 | zapier       | {"mail_bcc": "jdkweb@hotmail.com,info@zonnepanelen.io", "mail_subject": "Bedankt voor je aanvraag"}                                  |
-|  8 | 105311 |      1 | montage gepland                         |    NULL |         0 |     2 | zapier       | {"mail_bcc": "jdkweb@hotmail.com,info@zonnepanelen.io", "mail_subject": "Montage gepland"}                                           |
-|  9 | 105314 |      1 | oplevering compleet                     |    NULL |         1 |     1 | mailer       | {"mail_to": "administratie@zonnepanelen.io", "mail_subject": "Dit project is afgerond en de laatste factuur kan verstuurd worden"}   |
-| 10 | 117869 |      1 | reclameren                              |   93812 |         0 |     1 | mailer       | {"mail_to": "info@zonnepanelen.io", "mail_subject": "Deze klant moet gereclameerd worden"}                                           |
-| 11 | 121749 |      1 | afgerond                                |    NULL |         1 |     7 | zapier       | {"mail_bcc": "jdkweb@hotmail.com,info@zonnepanelen.io", "mail_subject": "Feedback"}                                                  |
-| 12 | 133446 |      1 | 1st factuur sturen                      |    NULL |         0 |     1 | mailer       | {"mail_to": "administratie@zonnepanelen.io", "mail_subject": "Deze klant akkoord met offerte, voorschotfactuur kan gemaakt worden."} |
-| 13 | 105298 |      1 | offerte opvolgen, 4 dagen verstreken    |   83314 |         0 |     4 | zapier       | {"mail_bcc": "jdkweb@hotmail.com,info@zonnepanelen.io", "mail_subject": "Uw offerte"}                                                |
-| 14 | 105314 |      1 | Oplevering compleet 29 dagen verstreken |    NULL |         0 |    29 | zapier       | {"mail_bcc": "jdkweb@hotmail.com,info@zonnepanelen.io", "mail_subject": "Wilt u ons binnenkort beoordelen?"}                         |
-+----+--------+--------+-----------------------------------------+---------+-----------+-------+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-```
+Wrapper is getting data form the 2Solar API. This wrapper is sending email to the customer depending on the status of processing.
+
+- Thanks you for your request
+- ...
+- Appointment has been made
+- ...
+- How is your experience with...
+
 [Zonnepanelen-API-Diagram.pdf](docs/Zonnepanelen-API-Diagram.pdf)
