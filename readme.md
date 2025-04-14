@@ -1,6 +1,6 @@
 # 2Solar API Wrapper
 
-Wrapper is getting data form the 2Solar API. This wrapper is sending email to the customer depending on the status of processing.
+Wrapper is getting data form the 2Solar API. This wrapper is sending email to the customer depending on the status of processing the order.
 
 - Thanks you for your request
 - ...
