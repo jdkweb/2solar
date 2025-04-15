@@ -41,7 +41,10 @@ class DataHandlerTest extends TestCase
         }
     }
 
-
+    /**
+     * 2Solar Status Id's to check
+     * @return array[]
+     */
     public function additionProvider(): array
     {
         return [
