@@ -12,6 +12,4 @@ Exp. mail depending on status:
 - ...
 - How is your experience with...
 
-![Kind of sequense diagram](https://www.jdkweb.nl/bestanden/images/portfolio/zonnepanelen/schema.jpg) 
-
 [Zonnepanelen-API-Diagram.pdf](docs/Zonnepanelen-API-Diagram.pdf)
