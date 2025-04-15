@@ -7,6 +7,8 @@ trait Zapier
     /**
      * MailSettings voor Zapier (via outlook)
      *
+     * Zapier can filter/match on specific subject and use body- and/or mailto-data
+     *
      * @param array $item
      * @return bool
      */
