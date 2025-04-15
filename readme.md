@@ -4,7 +4,7 @@ This wrapper communicates with the 2Solar API. This wrapper keeps the customer i
 
 This wrapper checks the status and ensures that the correct emails are sent and not duplicates.
 
-
+Exp. mail depending on status:
 
 - Thanks you for your request
 - ...
