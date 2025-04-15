@@ -1,5 +1,8 @@
 vendor
 chunks/*
+!chunks/README.md
+!chunks/STATUS_ID.tpl
+!chunks/richmailer_STATUS_ID.tpl
 data/*
 Log/*
 settings.live.php
